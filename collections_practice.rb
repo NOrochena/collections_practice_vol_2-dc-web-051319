@@ -56,8 +56,8 @@ def merge_data(keys, data)
       arr.push(attributes)  
     end
   end
-  keys.each_with_index do |obj|
-    arr.push(obj)
+  keys.each_with_index do |obj, index|
+    arr[0] = arr[0].merge(obj)
   end
   
   arr
