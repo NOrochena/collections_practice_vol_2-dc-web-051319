@@ -64,7 +64,9 @@ end
 
 def find_cool(hash)
   hash.each do |obj|
-    puts obj 
+    if obj[:temperature] == "cool"
+      puts ""
+    end
   end
 end
 
