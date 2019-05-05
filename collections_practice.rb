@@ -82,7 +82,7 @@ def organize_schools(hash)
       organized_hash[value[:location].to_s] = [key]
     end
   end
-  organized_hash
+  puts organized_hash
 end
 
 
