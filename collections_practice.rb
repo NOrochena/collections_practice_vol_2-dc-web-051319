@@ -60,8 +60,9 @@ def merge_data(keys, data)
       puts arr.index("Blake")
     end
   end
-  
   arr
 end
+
+
 
 
