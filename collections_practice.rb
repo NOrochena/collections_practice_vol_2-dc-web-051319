@@ -79,7 +79,7 @@ def organize_schools(hash)
     if organized_hash.has_key?(value[:location].to_s)
       organized_hash[value[:location].to_s].push(key)
     else
-      
+      organized_hash[value[:location].to_s] = [key]
     end
   end
 end
