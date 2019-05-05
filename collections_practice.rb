@@ -72,6 +72,7 @@ def find_cool(hash)
   arr
 end
 
-
+def organize_schools()
+end
 
 
