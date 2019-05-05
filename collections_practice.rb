@@ -59,8 +59,10 @@ def merge_data(keys, data)
   keys.each_with_index do |obj, index|
     arr[index] = arr[index].merge(obj)
   end
-  
   arr
+end
+
+def find_cool()
 end
 
 
