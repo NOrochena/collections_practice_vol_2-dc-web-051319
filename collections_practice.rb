@@ -72,7 +72,8 @@ def find_cool(hash)
   arr
 end
 
-def organize_schools()
+def organize_schools(hash)
+  puts hash
 end
 
 
