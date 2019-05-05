@@ -73,7 +73,9 @@ def find_cool(hash)
 end
 
 def organize_schools(hash)
-  puts hash
+  hash.each do |key, value|
+    puts value
+  end
 end
 
 
