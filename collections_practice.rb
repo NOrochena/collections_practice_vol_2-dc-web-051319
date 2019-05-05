@@ -51,12 +51,12 @@ def merge_data(keys, data)
   arr = []
   new_hash = {}
   
-  data.each_with_index do |obj, index|
+  data.each do |obj|
     obj.each do |name, attributes|
       arr.push(attributes)  
     end
   end
-  keys.each do |obj|
+  keys.each_with_index do |obj|
     arr.push(obj)
   end
   
