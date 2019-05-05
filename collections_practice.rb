@@ -62,7 +62,8 @@ def merge_data(keys, data)
   arr
 end
 
-def find_cool()
+def find_cool(hash)
+  puts hash
 end
 
 
