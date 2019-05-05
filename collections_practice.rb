@@ -76,7 +76,9 @@ def organize_schools(hash)
   organized_hash = {}
   
   hash.each do |key, value|
-    if organized_hash.has_key?()
+    puts value[:location]
+    if organized_hash.has_key?(value[:location])
+    end
   end
 end
 
