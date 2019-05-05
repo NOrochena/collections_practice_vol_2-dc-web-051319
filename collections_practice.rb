@@ -63,11 +63,13 @@ def merge_data(keys, data)
 end
 
 def find_cool(hash)
+  arr = []
   hash.each do |obj|
     if obj[:temperature] == "cool"
-      return obj
+      arr.push(obj)
     end
   end
+  arr
 end
 
 
