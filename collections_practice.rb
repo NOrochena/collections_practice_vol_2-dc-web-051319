@@ -55,9 +55,9 @@ def merge_data(keys, data)
     arr.push(obj)
   end
   
-  data.each_with_index do |obj|
+  data.each_with_index do |obj,index|
     obj.each do |name, attributes|
-      puts attributes  
+      arrattributes  
     end
   end
   arr
